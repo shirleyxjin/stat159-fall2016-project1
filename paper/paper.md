@@ -14,6 +14,8 @@ This paper will document the steps to create and recreate this project, and disc
 ## Introduction
 
 Reproducible workflow is becoming increasingly important in many areas of studies where people are paying closer attention to the validity and replicability of analysis performed supporting research results and findings. Reproducible work not only helps the academics examine and verify research progress, but also can be used to improve the overall analysis capability. Computational tools such as **bash**, **Markdown**, **pandoc**, **Git**, **GitHub**, **Makefile**, and text editors such as **Vim**, therefore, are becoming more important and valuable as they make the reproducibility of workflow much easier and more convenient to accomplish. In this paper, I will briefly discuss the roles of some of these computational tools, and detail the challenges in using such tools.
+## Discussion
+
 ### Makefile
 First, let me explain what a makefile is. A Makefile is a file that contains shell commands. It is a file such that when you call that Makefile by command make in that directory you wish, the shell commands contained in the Makefile will be executed. In an effort to create a reproducible workflow, Makefile keeps track of source files and when source files are updated, Makefile can recreate the entire process and update the result files/steps with ease, by simply calling command _make_. Without a Makefile, the process becomes much more complicated and time-consuming, and you’d have to recreate every step that it took to create the original changes.
 The typical structure of a rule within a makefile is as follows:

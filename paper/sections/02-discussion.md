@@ -1,3 +1,5 @@
+## Discussion
+
 ### Makefile
 First, let me explain what a makefile is. A Makefile is a file that contains shell commands. It is a file such that when you call that Makefile by command make in that directory you wish, the shell commands contained in the Makefile will be executed. In an effort to create a reproducible workflow, Makefile keeps track of source files and when source files are updated, Makefile can recreate the entire process and update the result files/steps with ease, by simply calling command _make_. Without a Makefile, the process becomes much more complicated and time-consuming, and you’d have to recreate every step that it took to create the original changes.
 The typical structure of a rule within a makefile is as follows:
