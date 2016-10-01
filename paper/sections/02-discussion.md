@@ -9,7 +9,7 @@ target: dependencies ...
 For this project, a Makefile was created to compile the individual markdown files into one final paper, and convert the paper markdown file into a html file. There’s also a _clean_ command that will remove the paper both in markdown version and in html version.
 
 ### Git
-![Git](../images/git-logo.png)
+![Git](https://raw.githubusercontent.com/ucb-stat159/stat159-fall-2016/master/projects/proj01/images/git-logo.png)
 Next, let’s learn about Git. Git is a version control system that makes the collaboration process much easier and allows a user to keep track of the different changes made and different versions of the files. When collaboration is needed for a digital project, Git helps every member of the team to keep track of the most updated versions so that when changes are made to the versions, there are no conflicting copies and no one has to dig through 10 files if they decide to abort a change and go back to the previous versions. Git was used for this project to track the changes of the versions of the paper, and to have the work available to view on GitHub. Specifically, there are the codes I used to set up a Git repo:
 ```
 mkdir stat159-fall2016-project1
@@ -30,7 +30,7 @@ git status
 ```
 
 ### GitHub
-![Github](../images/github-logo.png)
+![Github](https://raw.githubusercontent.com/ucb-stat159/stat159-fall-2016/master/projects/proj01/images/github-logo.png)
 GitHub is a web-based Git repository hosting service. It provides access control and collaboration features such as bug tracking, feature requests, task management for every project. GitHub is an open source website for sharing of codes used for research papers. It makes the sharing of codes simpler and thus increases the ease of code checking and research reproduction. Several features of GitHub were used for this project, namely the documentation in the form of an automatically rendered README file in markdown format, and project collaboration feature with Professor Sanchez and GSI. Specifically, I set up the remote repository by:
 ```
 git remote add origin http://...
@@ -41,14 +41,14 @@ git push origin master
 ```
 
 ### pandoc
-![pandoc](../images/pandoc-logo.png)
+![pandoc](https://raw.githubusercontent.com/ucb-stat159/stat159-fall-2016/master/projects/proj01/images/pandoc-logo.png)
 [Pandoc](http://pandoc.org/) is another great computational tool. Pandoc is an open-source file converter that allows simple conversion of one markup format into another. Pandoc can convert documents in markdown, reStrcturedText, textile, HTML, LaTeX, and many more. It is a useful tool in producing reproducible work as it allows simple conversion of R files, markdown files into publication-ready formats such as HTML and LaTeX. It makes the sharing of code and workflows effortless. For this project, Pandoc was used to convert the project paper markdown file into html format using the following code:
 ```
 pandoc -s paper.md -o paper.html
 ```
 
 ### Markdown
-![Markdown](../images/markdown-logo.png)
+![Markdown](https://raw.githubusercontent.com/ucb-stat159/stat159-fall-2016/master/projects/proj01/images/markdown-logo.png)
 The last computational tool I’ll explain is Markdown. [Markdown](http://macdown.uranusjr.com) is a lightweight markup language with plain text formatting syntax that can be easily converted to HTML and other formats. Markdown is typically used to format README files, and text writing using a text editor. Markdown is intended to be easy-to-read and easy-to-write. A markdown document should be published and presented as plain text without displaying the syntax used to format the text.
 
 ### Project Discussion

@@ -7,4 +7,4 @@ This paper is a project for _STAT 159 – Reproducible and Collaborative Data Sc
 - Pandoc
 - Markdown.
 This paper will document the steps to create and recreate this project, and discuss the findings and challenges in using these tools.
-![](../images/stat159-logo.png)
+![](https://raw.githubusercontent.com/ucb-stat159/stat159-fall-2016/master/projects/proj01/images/stat159-logo.png)
